@@ -1173,7 +1173,16 @@ content:''; width:3px; height:17px; background:#F04E29; position:absolute; left:
 .contentItemImg {
   max-width: 169.5px;
   height: 122px;
-  margin: 20px auto;
+  margin: 25px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contentItemImg img {
   height: 100%;
@@ -1207,7 +1216,7 @@ content:''; width:3px; height:17px; background:#F04E29; position:absolute; left:
   font-size: 15px;
   text-align: center;
   width: 100%;
-  margin: 10px 0 15px;
+  margin: 10px 0 17.5px;
   height: 55px;
   overflow: hidden;
 }
